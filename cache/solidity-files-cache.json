@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/kriptonian/Desktop/Lottery-Contract/contracts/Lottery.sol": {
+      "lastModificationDate": 1660733447671,
+      "contentHash": "424f4bd55fe883e80c67c6fc2156a07e",
+      "sourceName": "contracts/Lottery.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Random.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "Lottery"
+      ]
+    },
+    "/home/kriptonian/Desktop/Lottery-Contract/contracts/Random.sol": {
+      "lastModificationDate": 1660733479520,
+      "contentHash": "62aa298ee175b6310240be4475f73e07",
+      "sourceName": "contracts/Random.sol",
+      "solcConfig": {
+        "version": "0.8.15",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.15"
+      ],
+      "artifacts": [
+        "Random"
+      ]
+    }
+  }
+}
